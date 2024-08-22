@@ -6,6 +6,6 @@ def fibonacci(n):
         a, b = b, a + b
     return sequence
 
-terms = int(input("Enter the number of terms: "))
+terms = input("Enter the number of terms: ")
 print(f"Fibonacci sequence up to {terms} terms:")
 print(fibonacci(terms))
