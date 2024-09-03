@@ -4,7 +4,7 @@ def selectionSort(arr):
        lowestIndex = i  
        for j in range(n):  
            if arr[j] < arr[lowestIndex]:  
-               lowestIndex \= j
+               lowestIndex = j
 
        arr[lowestIndex] = arr[i]  
        arr[i] = arr[lowestIndex]  
