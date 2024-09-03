@@ -1,14 +1,17 @@
+import pdb
 def selectionSort(arr):  
    n = len(arr)  
+
    for i in range(n):  
        lowestIndex = i  
-       for j in range(n):  
+       for j in range(i,n):  
            if arr[j] < arr[lowestIndex]:  
                lowestIndex = j
-
+       #breakpoint()
+       lowestNum = arr[lowestIndex]
        arr[lowestIndex] = arr[i]  
-       arr[i] = arr[lowestIndex]  
-       n = n - 1
+       arr[i] = lowestNum  
+       n = n
 
    return arr
 

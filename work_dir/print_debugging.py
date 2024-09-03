@@ -21,3 +21,9 @@ def selectionSort(arr):
 
 
    return arr
+
+arr_in = [5, 3, 2, 1, 8, 10, 11, 9, 23]
+
+arr_out = selectionSort(arr_in)
+
+print(arr_out)
