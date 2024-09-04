@@ -1,6 +1,5 @@
 import rand
 
-
 def mergeSort(arr):
     if (len(arr) == 1):
         return arr
@@ -36,7 +35,7 @@ arr_out = mergeSort(arr)
 print(arr_out)
 
 
-
-# pyright: strict
-#autopep8 --in-place --aggressive --aggressive <filename>, pip install autopep8
-#install extension of pyright
+## pyright: strict
+# autopep8 --in-place --aggressive --aggressive <filename>, pip install autopep8
+# install extension of pyright
+# pip install pylint, pip install pylint[spelling], pylint <filename>
