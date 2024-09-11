@@ -2,7 +2,7 @@
 import rand
 from typing import List
 
-def merge_sort(arr: List[int]) -> List[int]:
+def merge_sort(arr: List[int]) -> List[int]: #resolving return type error
     if len(arr) == 1:
         return arr
 
