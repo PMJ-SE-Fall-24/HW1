@@ -2,5 +2,5 @@
 ![License Version](https://img.shields.io/badge/AGPL-3.0%20license-blue)
 ![Platform](https://img.shields.io/badge/Linux-purple)
 ![Test](https://github.com/PMJ-SE-Fall-24/HW1/actions/workflows/python-app.yml/badge.svg)
-![Pylint](https://img.shields.io/badge/pylint-8.0-Brightgreen)
+
 
