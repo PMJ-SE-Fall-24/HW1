@@ -1,0 +1,16 @@
+Auto-excluding **/node_modules
+Auto-excluding **/__pycache__
+Auto-excluding **/.*
+Search paths for file:///workspaces/HW1/work_dir
+  /home/codespace/.cache/pyright-python/1.1.380/node_modules/pyright/dist/typeshed-fallback/stdlib
+  /workspaces/HW1/work_dir
+  /workspaces/HW1/work_dir/typings
+  /home/codespace/.cache/pyright-python/1.1.380/node_modules/pyright/dist/typeshed-fallback/stubs/...
+  /home/codespace/.python/current/lib/python3.12
+  /home/codespace/.python/current/lib/python3.12/lib-dynload
+  /home/codespace/.local/lib/python3.12/site-packages
+  /home/codespace/.python/current/lib/python3.12/site-packages
+Found 1 source file
+pyright 1.1.380
+0 errors, 0 warnings, 0 informations 
+Completed in 0.859sec

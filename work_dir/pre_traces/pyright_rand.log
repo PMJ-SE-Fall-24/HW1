@@ -1,0 +1,23 @@
+Auto-excluding **/node_modules
+Auto-excluding **/__pycache__
+Auto-excluding **/.*
+Search paths for file:///workspaces/HW1/work_dir
+  /home/codespace/.cache/pyright-python/1.1.380/node_modules/pyright/dist/typeshed-fallback/stdlib
+  /workspaces/HW1/work_dir
+  /workspaces/HW1/work_dir/typings
+  /home/codespace/.cache/pyright-python/1.1.380/node_modules/pyright/dist/typeshed-fallback/stubs/...
+  /home/codespace/.python/current/lib/python3.12
+  /home/codespace/.python/current/lib/python3.12/lib-dynload
+  /home/codespace/.local/lib/python3.12/site-packages
+  /home/codespace/.python/current/lib/python3.12/site-packages
+Found 1 source file
+pyright 1.1.380
+/workspaces/HW1/work_dir/rand.py
+  /workspaces/HW1/work_dir/rand.py:4:5 - error: Return type is unknown (reportUnknownParameterType)
+  /workspaces/HW1/work_dir/rand.py:4:18 - error: Type of parameter "arr" is unknown (reportUnknownParameterType)
+  /workspaces/HW1/work_dir/rand.py:4:18 - error: Type annotation is missing for parameter "arr" (reportMissingParameterType)
+  /workspaces/HW1/work_dir/rand.py:7:24 - error: Argument type is unknown
+    Argument corresponds to parameter "obj" in function "len" (reportUnknownArgumentType)
+  /workspaces/HW1/work_dir/rand.py:11:12 - error: Return type is unknown (reportUnknownVariableType)
+5 errors, 0 warnings, 0 informations 
+Completed in 1.027sec

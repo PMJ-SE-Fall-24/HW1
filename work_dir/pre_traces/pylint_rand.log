@@ -1,0 +1,9 @@
+************* Module rand
+rand.py:5:0: C0303: Trailing whitespace (trailing-whitespace)
+rand.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+rand.py:4:0: C0116: Missing function or method docstring (missing-function-docstring)
+rand.py:7:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+
+------------------------------------------------------------------
+Your code has been rated at 4.29/10 (previous run: 4.29/10, +0.00)
+

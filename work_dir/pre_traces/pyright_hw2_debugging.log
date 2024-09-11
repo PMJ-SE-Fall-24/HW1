@@ -1,0 +1,26 @@
+Auto-excluding **/node_modules
+Auto-excluding **/__pycache__
+Auto-excluding **/.*
+Search paths for file:///workspaces/HW1/work_dir
+  /home/codespace/.cache/pyright-python/1.1.380/node_modules/pyright/dist/typeshed-fallback/stdlib
+  /workspaces/HW1/work_dir
+  /workspaces/HW1/work_dir/typings
+  /home/codespace/.cache/pyright-python/1.1.380/node_modules/pyright/dist/typeshed-fallback/stubs/...
+  /home/codespace/.python/current/lib/python3.12
+  /home/codespace/.python/current/lib/python3.12/lib-dynload
+  /home/codespace/.local/lib/python3.12/site-packages
+  /home/codespace/.python/current/lib/python3.12/site-packages
+Found 1 source file
+pyright 1.1.380
+/workspaces/HW1/work_dir/hw2_debugging.py
+  /workspaces/HW1/work_dir/hw2_debugging.py:8:1 - error: "pyri" is not defined (reportUndefinedVariable)
+  /workspaces/HW1/work_dir/hw2_debugging.py:8:1 - warning: Expression value is unused (reportUnusedExpression)
+  /workspaces/HW1/work_dir/hw2_debugging.py:9:1 - error: Unexpected indentation
+  /workspaces/HW1/work_dir/hw2_debugging.py:9:16 - error: "arr" is not defined (reportUndefinedVariable)
+  /workspaces/HW1/work_dir/hw2_debugging.py:11:5 - error: "return" can be used only within a function
+  /workspaces/HW1/work_dir/hw2_debugging.py:11:12 - error: "recombine" is not defined (reportUndefinedVariable)
+  /workspaces/HW1/work_dir/hw2_debugging.py:11:33 - error: "arr" is not defined (reportUndefinedVariable)
+  /workspaces/HW1/work_dir/hw2_debugging.py:11:57 - error: "arr" is not defined (reportUndefinedVariable)
+  /workspaces/HW1/work_dir/hw2_debugging.py:14:1 - error: Unindent not expected
+8 errors, 1 warning, 0 informations 
+Completed in 0.804sec
