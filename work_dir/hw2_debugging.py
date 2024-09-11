@@ -1,12 +1,14 @@
-import rand
 
-def mergeSort(arr):
-    if (len(arr) == 1):
+import rand
+from typing import List
+
+def merge_sort(arr: List[int]) -> List[int]:
+    if len(arr) == 1:
         return arr
 
     half = len(arr) // 2
 
-    return recombine(mergeSort(arr[:half]), mergeSort(arr[half:]))
+    return recombine(merge_sort(arr[:half]), merge_sort(arr[half:]))
 
 
 def recombine(leftArr, rightArr):
@@ -30,12 +32,12 @@ def recombine(leftArr, rightArr):
 
 
 arr = rand.random_array([None] * 20)
-arr_out = mergeSort(arr)
+arr_out = merge_sort(arr)
 
 print(arr_out)
 
 
-## pyright: strict
+# pip install pyright, pyright <filename>
 # autopep8 --in-place --aggressive --aggressive <filename>, pip install autopep8
 # install extension of pyright
 # pip install pylint, pip install pylint[spelling], pylint <filename>
