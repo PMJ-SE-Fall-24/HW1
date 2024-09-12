@@ -3,4 +3,4 @@
 ![Platform](https://img.shields.io/badge/Linux-purple)
 ![Test](https://github.com/PMJ-SE-Fall-24/HW1/actions/workflows/python-app.yml/badge.svg)
 ![pylint](https://github.com/PMJ-SE-Fall-24/HW1/actions/workflows/pylint.yml/badge.svg)
-![pylint](https://github.com/PMJ-SE-Fall-24/HW1/actions/workflows/pylint.yml/badge.svg)
+
