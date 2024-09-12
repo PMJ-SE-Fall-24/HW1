@@ -1,6 +1,6 @@
 import unittest
 from typing import List
-from hw2_debugging import merge_sort, recombine  # Replace 'your_module_name' with the name of your Python file without the '.py' extension
+from hw2_debugging import merge_sort, recombine  
 
 class TestMergeSort(unittest.TestCase):
 
